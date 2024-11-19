@@ -1,0 +1,18 @@
+O experimento foi desenvolvido no PyCharm, então carregue o arquivo python "Código para o trabalho.py" no programa.
+
+Abra o console do PyCharm e carregue as libraries que o código utiliza com o comando a seguir:
+
+"pip install pandas
+pip install scikit-learn
+pip install seaborn
+pip install matplotlib
+pip install numpy"
+
+Certifique-se que os caminhos descritos no código para acessar o Dataset contendo vulnerabilidades "Dataset CWE-787.csv" está correto
+e também que o caminho para o arquivo Dataset seguro "Dataset códigos seguros.csv também está correto. Alterações são feitas nas linhas 10 e 11 do código 
+que mostram respectivamente:
+
+vulnerable_path = r'C:\Users\***\***\Dataset CWE-787.csv'
+secure_path = r'C:\Users\***\***\Dataset códigos corretos.csv'
+
+Depois disso só iniciar o programa, ele vai treinar, gerar as métricas e abrir um espaço abaixo para que o usuário insira um código para consulta.

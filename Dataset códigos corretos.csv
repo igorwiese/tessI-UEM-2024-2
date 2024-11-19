@@ -1,0 +1,413 @@
+"print(""Hello, World!"")
+"
+"x = 10
+y = 20
+print(x + y)
+"
+"def add(a, b):
+    return a + b
+"
+"fruits = [""apple"", ""banana"", ""cherry""]
+for fruit in fruits:
+    print(fruit)
+"
+"name = ""John""
+print(f""Hello, {name}!"")
+"
+"for i in range(5):
+    print(i)
+"
+"a = 5
+b = 3
+if a > b:
+    print(""a is greater than b"")
+"
+"def greet(name):
+    return f""Hello, {name}!""
+"
+"squares = [x ** 2 for x in range(10)]
+print(squares)
+"
+"def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+"
+"with open('file.txt', 'w') as f:
+    f.write('Hello, file!')
+"
+"import math
+
+print(math.sqrt(16))
+"
+"def is_even(n):
+    return n % 2 == 0
+"
+"numbers = [1, 2, 3, 4, 5]
+print(sum(numbers))
+"
+"name = input(""Enter your name: "")
+print(f""Hello, {name}!"")
+"
+"def square(n):
+    return n * n
+"
+"a = [1, 2, 3]
+print(len(a))
+"
+"import random
+
+print(random.randint(1, 10))
+"
+"colors = {""red"": 1, ""green"": 2, ""blue"": 3}
+print(colors[""red""])
+"
+"def max_value(a, b):
+    return a if a > b else b
+"
+"numbers = [42, 18, 6, 92, 3]
+print(sorted(numbers))
+"
+"x = 10
+y = [i * 2 for i in range(x)]
+print(y)
+"
+"def fib(n):
+    a, b = 0, 1
+    for _ in range(n):
+        a, b = b, a + b
+"
+"name = ""Alice""
+surname = ""Smith""
+full_name = name + "" "" + surname
+print(full_name)
+"
+"coordinates = (10, 20)
+x, y = coordinates
+print(x, y)
+"
+"def reverse_string(s):
+    return s[::-1]
+"
+"count = 0
+while count < 5:
+    print(count)
+    count += 1
+"
+"from datetime import date
+
+today = date.today()
+print(today)
+"
+"num_list = [1, 2, 3, 4, 5]
+filtered_list = filter(lambda x: x % 2 == 0, num_list)
+print(list(filtered_list))
+"
+"def multiply(a, b):
+    return a * b
+"
+"   #include <stdio.h>
+
+   int main() {
+       int a = 5, b = 3;
+       printf(""Sum: %d\n"", a + b);
+       return 0;
+   }"
+"   #include <stdio.h>
+
+   void greet() {
+       printf(""Hello, World!\n"");
+   }
+
+   int main() {
+       greet();
+       return 0;
+   }"
+"   #include <stdio.h>
+
+   int main() {
+       for(int i = 0; i < 5; i++) {
+           printf(""%d\n"", i);
+       }
+       return 0;
+   }"
+"   #include <stdio.h>
+
+   int main() {
+       char name[20] = ""Alice"";
+       printf(""Name: %s\n"", name);
+       return 0;
+   }"
+"   #include <stdio.h>
+
+   int main() {
+       int numbers[] = {1, 2, 3, 4, 5};
+       for(int i = 0; i < 5; i++) {
+           printf(""%d\n"", numbers[i]);
+       }
+       return 0;
+   }"
+"   public class Sum {
+       public static void main(String[] args) {
+           int a = 5;
+           int b = 3;
+           System.out.println(""Sum: "" + (a + b));
+       }
+   }"
+"   public class Greet {
+       public static void main(String[] args) {
+           greet();
+       }
+
+       public static void greet() {
+           System.out.println(""Hello, World!"");
+       }
+   }"
+"   public class LoopExample {
+       public static void main(String[] args) {
+           for(int i = 0; i < 5; i++) {
+               System.out.println(i);
+           }
+       }
+   }"
+"   public class NameExample {
+       public static void main(String[] args) {
+           String name = ""Alice"";
+           System.out.println(""Name: "" + name);
+       }
+   }"
+"   public class ArrayExample {
+       public static void main(String[] args) {
+           int[] numbers = {1, 2, 3, 4, 5};
+           for(int num : numbers) {
+               System.out.println(num);
+           }
+       }
+   }"
+"   let a = 5;
+   let b = 3;
+   console.log(""Sum:"", a + b);"
+"   function greet() {
+       console.log(""Hello, World!"");
+   }
+
+   Greet();"
+"   let numbers = [1, 2, 3, 4, 5];
+   numbers.forEach((num) => {
+       console.log(num);
+   });"
+"   using System;
+
+   class Program {
+       static void Main() {
+           int a = 5;
+           int b = 3;
+           Console.WriteLine(""Sum: "" + (a + b));
+       }
+   }"
+"   using System;
+
+   class Program {
+       static void Main() {
+           Greet();
+       }
+
+       static void Greet() {
+           Console.WriteLine(""Hello, World!"");
+       }
+   }"
+"   let name = ""Alice"";
+   console.log(""Name:"", name);"
+"   for (let i = 0; i < 5; i++) {
+       console.log(i);
+   }"
+"   using System;
+
+   class Program {
+       static void Main() {
+           for(int i = 0; i < 5; i++) {
+               Console.WriteLine(i);
+           }
+       }
+   }"
+"   using System;
+
+   class Program {
+       static void Main() {
+           string name = ""Alice"";
+           Console.WriteLine(""Name: "" + name);
+       }
+   }"
+"   using System;
+
+   class Program {
+       static void Main() {
+           int[] numbers = {1, 2, 3, 4, 5};
+           foreach(int num in numbers) {
+               Console.WriteLine(num);
+           }
+       }
+   }"
+"   a = 5
+   b = 3
+   puts ""Sum: #{a + b}"""
+"   def greet
+       puts ""Hello, World!""
+   end
+
+   Greet"
+"   5.times do |i|
+       puts i
+   End"
+"   name = ""Alice""
+   puts ""Name: #{name}"""
+"   Numbers = [1, 2, 3, 4, 5]
+   numbers.each do |num|
+       puts num
+   end"
+"   print ""Hello, World!\n"";"
+"   my $a = 5;
+   my $b = 3;
+   print ""Sum: "", $a + $b, ""\n"";"
+"   sub greet {
+       print ""Hello, World!\n"";
+   }
+
+   Greet();"
+"   my @fruits = (""apple"", ""banana"", ""cherry"");
+   foreach my $fruit (@fruits) {
+       print ""$fruit\n"";
+   }"
+"   my $num = 4;
+   if ($num % 2 == 0) {
+       print ""$num is even\n"";
+   } else {
+       print ""$num is odd\n"";
+   }"
+"   <?php
+   echo ""Hello, World!\n"";
+   ?>"
+"   <?php
+   $a = 5;
+   $b = 3;
+   echo ""Sum: "" . ($a + $b) . ""\n"";
+   ?>"
+"   <?php
+   Function greet() {
+       echo ""Hello, World!\n"";
+   }
+
+   greet();
+   ?>"
+"   <?php
+   $fruits = array(""apple"", ""banana"", ""cherry"");
+   foreach ($fruits as $fruit) {
+       echo ""$fruit\n"";
+   }
+   ?>"
+"   <?php
+   $num = 4;
+   if ($num % 2 == 0) {
+       echo ""$num is even\n"";
+   } else {
+       echo ""$num is odd\n"";
+   }
+   ?>"
+"   print(""Hello, World!"")"
+"   let a = 5
+   let b = 3
+   print(""Sum: \(a + b)"")"
+"   func greet() {
+       print(""Hello, World!"")
+   }
+
+   Greet()"
+"   let fruits = [""apple"", ""banana"", ""cherry""]
+   for fruit in fruits {
+       print(fruit)
+   }"
+"   let num = 4
+   if num % 2 == 0 {
+       print(""\(num) is even"")
+   } else {
+       print(""\(num) is odd"")
+   }"
+"   fun main() {
+       println(""Hello, World!"")
+   }"
+"   fun main() {
+       val a = 5
+       val b = 3
+       println(""Sum: ${a + b}"")
+   }"
+"   fun greet() {
+       println(""Hello, World!"")
+   }
+
+   fun main() {
+       greet()
+   }"
+"   fun main() {
+       val fruits = arrayOf(""apple"", ""banana"", ""cherry"")
+       for (fruit in fruits) {
+           println(fruit)
+       }
+   }"
+"   fun main() {
+       val num = 4
+       if (num % 2 == 0) {
+           println(""$num is even"")
+       } else {
+           println(""$num is odd"")
+       }
+   }"
+"   package main
+
+   import ""fmt""
+
+   func main() {
+       fmt.Println(""Hello, World!"")
+   }"
+"   package main
+
+   import ""fmt""
+
+   func main() {
+       a := 5
+       b := 3
+       fmt.Println(""Sum:"", a+b)
+   }"
+"   package main
+
+   import ""fmt""
+
+   func greet() {
+       fmt.Println(""Hello, World!"")
+   }
+
+   func main() {
+       greet()
+   }"
+"   package main
+
+   import ""fmt""
+
+   func main() {
+       fruits := []string{""apple"", ""banana"", ""cherry""}
+       for _, fruit := range fruits {
+           fmt.Println(fruit)
+       }
+   }"
+"   package main
+
+   import ""fmt""
+
+   func main() {
+       num := 4
+       if num%2 == 0 {
+           fmt.Println(num, ""is even"")
+       } else {
+           fmt.Println(num, ""is odd"")
+       }
+   }"
